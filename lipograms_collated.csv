@@ -1,0 +1,462 @@
+prompt,strategy,output,num_tokens,gen_id,letter,prompt_base,num_backtracks,total_generated_toks_model,total_invocations_model,total_generated_toks_speculative,total_invocations_speculative,limit_reached,rater
+"<s>[INST]Write a story without using the letter ""A"".[/INST]",Unconstrained,"Once upon a time, in a tiny, secluded village nestled between the rolling hills, lived various inhabitants. Among them were farmers, artisans, and traders. Each day, the villagers rose with the sun, tending to their tasks with purpose and unity.
+
+The village was renowned for its bountiful crops and vibrant marketplace. The farmers, with their calloused hands and weathered faces, toiled tirelessly in the fertile soil. The artisans, using their creative minds, crafted beautiful trinkets and intricate garments. And the traders, with their keen sense of business, exchanged goods with travelers passing through.
+
+Among the farmers, there was one named Bob. He was known for his hearty produce and generous spirit. He would often share his harvest with those in need, never expecting anything in return. One season, however, the rains failed to come, leaving the crops par",200,0,A,Write a story,0,200,200,,,False,3:4/1
+"<s>[INST]Write a story without using the letter ""E"".[/INST]",Unconstrained,"In a quaint, old-world village lived a wise artisan named Gobo. His humble abode was nestled 'twixt a grove of towering, verdant trees. His days were passed in crafting intricate, exquisite pottery pieces, each more beautiful than the last.
+
+Gobo sourced clay from a nearby stream, where its cool, crystalline waters danced over smooth, mossy pebbles. The sun, a golden orb, bathed the clay in warm hues before Gobo shaped it with skilled, nimble fingers. A wheel, spun by muscular arms, transformed the malleable substance into symmetrical rounds.
+
+Once shaped, pieces were set to dry under the clear, azure sky. With patience, they transformed into delicate, hardened creations. With deft strokes, Gobo adorned pots and bowls with intricate,",200,0,E,Write a story,0,200,200,,,False,2:5/1
+"<s>[INST]Write a story without using the letter ""I"".[/INST]",Unconstrained,"Amidst twisting, verdant hills, a quaint, red-roofed village nestled. Cottages dotted the landscape, their windows framing the picturesque setting. A gentle breeze whispered through the emerald leaves, carrying with it the soft hum of bees alighting on flowers.
+
+Beside the village stream, a market thrived. Farmers sold their produce - ripe, golden apples, plump, scarlet tomatoes, and velvety, purple eggplants. Merchants hawked their wares - handwoven baskets, intricately designed pottery, and hand-quilted fabrics.
+
+Children's laughter echoed through the air as they played near the babbling brook. Their games merged with the bellowing, joyful voices of the villagers, creating a beautiful symphony of life.
+
+Under the vast, azure sky, a",200,0,I,Write a story,0,200,200,,,False,1:5/1
+"<s>[INST]Write a story without using the letter ""O"".[/INST]",Unconstrained,"In a quaint, quaint village nestled 'twixt two verdant hills, lived a humble craftsman and his family. The man was renowned for his ability to create intricate, beautiful pottery. Every morn, as the sun peaked 'cross the horizon, he'd rise, don his apron, and head to his workshop.
+
+The village, with its thatched roofs and cobblestone streets, was alive with activity. Children giggled as they played, skipping ' cross the meadow. Elders shared tales by hearth's gentle light. The marketplace bustled with merchants selling produce from afar.
+
+Our potter, though, was always deep in thought. Each piece he crafted reflected an inner emotion, a story only he could tell. His creations were sought after by nobles far and wide. Yet, satisfaction eluded him. He yearned for perfection.
+
+",200,0,O,Write a story,0,200,200,,,False,
+"<s>[INST]Write a story without using the letter ""U"".[/INST]",Unconstrained,"In a quaint, old-fashioned village, nestled 'tween rolling hills and a crystal-clear brook, lived various denizens. Among them were Vivian, a vintner, and her dog, Vip. They dwellt in a quaint, cobblestone cottage, with ivy creeping 'cross the walls.
+
+Vivian's vineyard, with its verdant vine rows, sprawled 'round the village. Each morn, she'd rise, tending to the grapevines. Her fingers, stained wiv' red juice, were a testament to her devotion.
+
+Vip, loyal companion, followed Vivian through the vineyard. He'd bark at the rabbits that ventured too near, protecting the hard-won produce. His tail wagged, a sign of joy, as he basked 'neath the warm, golden sunbeams.
+
+",200,0,U,Write a story,0,200,200,,,False,1:5/1
+"<s>[INST]Describe elephants without using the letter ""A"".[/INST]",Unconstrained,"Large, gray, thick-skinned pachyderms. Huge ears used for radiation dissipation. Long, curved tusks for defense and digging. Long, dexterous trunks for grabbing, dust bathing, and drinking. Herbivorous diet consisting of leaves, branches, fruits, and roots. Social creatures living in matriarchal herds. Protected by tough, callused pads on their feet for walking on various terrains. Known for their intelligence, memory, and emotional capacity. Males reach massive sizes, while females remain smaller in comparison. They are the largest land animals alive today.</s>",136,0,A,Describe elephants,0,136,136,,,False,1:5/1
+"<s>[INST]Describe elephants without using the letter ""E"".[/INST]",Unconstrained,"Large, gray, thick-skinned pachyderms. These grand animals, found in Africa and Asia, are the biggest living terrestrial mammals. With curved tusks and long, pointed ears, they possess agile trunks used for grasping and lifting objects. In their native habitats, they form intricate social structures, living in herds and exhibiting complex behaviors. Their diet primarily consists of leaves, fruits, and bark, requiring them to cover vast distances daily to meet their nutritional needs. These creatures are also known for their excellent memories and emotional intelligence.</s>",124,0,E,Describe elephants,0,124,124,,,False,3:5/1
+"<s>[INST]Describe elephants without using the letter ""I"".[/INST]",Unconstrained,"Large, gray, thick-skinned mammals, roam forests and savannas. Their body structure, massive and sturdy, supports great weight. Their ears, large and fan-like, radiate heat. Long, curved tusks, elongated incisors, project from their trunkless snout. Agile, these creatures, use their dexterous trunk and feet for gathering food and defense. Social, family-oriented, communicate through low sounds and vibrations. With lifespan of 60 years or more, elephants, lumbering giants, are treasured for their grace and strength.</s>",137,0,I,Describe elephants,0,137,137,,,False,
+"<s>[INST]Describe elephants without using the letter ""O"".[/INST]",Unconstrained,"Elephants are large, gray, thick-skinned pachyderms, known for their long, curved tusks. They are the largest land animals, reaching up to 13 feet in length and 10 feet in height at the shoulder. With strong, sturdy legs, they support up to 13,000 pounds. Their elongated trunk, a flexible extension of their upper lip, is used for tasks including grasping food and water, trumpeting, and bathing. Their ears, which function in both temperature regulation and communication, can reach up to 5 feet in width. These gentle giants live in herds, displaying complex social behaviors and intricate hierarchies.</s>",153,0,O,Describe elephants,0,153,153,,,False,3:5/1
+"<s>[INST]Describe elephants without using the letter ""U"".[/INST]",Unconstrained,"Massive, gray creatures, they are the largest living land animals. Their long, curved tusks are elongated ivory appendages. They possess large, fan-like ears that help dissipate body heat. Intelligent and social, they form intricate matriarchal herds. These pachyderms have sturdy legs supporting their massive bodies, ending in broad, flat feet. Their elongated trunks are prehensile, used for gathering food, drinking water, bathing, and communicating. With strong memories, they display complex behaviors and emotions. They are essential components of various ecosystems, particularly in Africa and Asia. These magnificent beings are called elephants.</s>",149,0,U,Describe elephants,0,149,149,,,False,2:5/1
+"<s>[INST]Provide instructions to tie a tie without using the letter ""A"".[/INST]",Unconstrained,"1. Begin by laying out your tie on a flat surface with the wide end, known as the ""butt end,"" and the narrower end, known as the ""point end.""
+
+2. Cross the butt end over the point end to form a loose knot.
+
+3. Take the right side of the necktie, known as the ""right drape,"" and cross it over the left side, or ""left drape.""
+
+4. Now, take the right drape and cross it over the left side again, creating a figure eight pattern.
+
+5. Tuck the wide end of the tie, the butt end, under the loop formed by the left drape.
+
+6. Pull the left drape through the hole created by tucking the wide end.
+
+7. Adjust the knot by ensuring the edges are even and the width is suitable for your preference.
+
+8. Once adjusted, re",200,0,A,Provide instructions to tie a tie,0,200,200,,,False,1:5/1
+"<s>[INST]Provide instructions to tie a tie without using the letter ""E"".[/INST]",Unconstrained,"1. Place the tie around your neck, with one end hanging lower than the other. This is called the ""working end.""
+
+2. Cross the working end over the undone side (the side without the Windsor knot).
+
+3. Bring the working end behind the neck, crossing it over the center of the knot.
+
+4. Pull the working end straight down, making a loop on the side with the Windsor knot.
+
+5. Tuck the end of the loop under the Windsor knot, towards the narrower side of the tie.
+
+6. Pull the working end to tighten the knot, and then repeat steps 3-5 to create a second loop on the other side.
+
+7. Cross the second loop over the first loop, just like in step 2.
+
+8. Bring the working end behind the neck and under the first loop, crossing it over the center of the",200,0,E,Provide instructions to tie a tie,0,200,200,,,False,
+"<s>[INST]Provide instructions to tie a tie without using the letter ""I"".[/INST]",Unconstrained,"To create an elegant necktie knot, follow these steps:
+
+1. Lay the tie flat on the table with the wide end (the end you'll be tying first) facing you. The thin end (the side you'll be attaching to theshirt) should be hanging on the left.
+
+2. Cross the wide end over the thin end and bring it behind the looped thin end.
+
+3. Now, pass the wide end over the looped thin end from left to right, going around the back of the necktie.
+
+4. Keeping the wide end behind the looped thin end, cross it over to the left side and bring it in front of the looped end.
+
+5. Now, the wide end should be on the left and the looped end on the right. Cross the wide end over the looped end again to the right side.
+
+6. Pass the wide end under",200,0,I,Provide instructions to tie a tie,0,200,200,,,False,2:4/1
+"<s>[INST]Provide instructions to tie a tie without using the letter ""O"".[/INST]",Unconstrained,"1. Begin by laying out your tie on a flat surface with the wide end, known as the ""tail,"" facing you. The narrower end is called the ""Tip.""
+
+2. Cross the Tip over the Tail from left to right.
+
+3. Bring the Tail around the back of the neck and cross it over the Tip.
+
+4. Now, take the Tip and thread it under the loop created by the Tail.
+
+5. Pull the Tip up through the loop.
+
+6. Adjust the position of the Tip and Tail to achieve a symmetrical knot.
+
+7. Repeat the process on the other side, crossing the Tip over the Tail, bringing the Tail around the back, threading the Tip under the loop, and pulling it through.
+
+8. With both sides adjusted, adjust the knot one final time to ensure a neat and symmetrical look.</s>",197,0,O,Provide instructions to tie a tie,0,197,197,,,False,2:5/1
+"<s>[INST]Provide instructions to tie a tie without using the letter ""U"".[/INST]",Unconstrained,"To tie a tie without using the letter ""U"" in the instructions, we can describe the steps using other words. Here's a simple way to tie a Four-in-Hand knot:
+
+1. Drape the tie around your neck with the wide end (known as the ""tie end"") over your shoulders and the narrow end (known as the ""working end"") hanging down in front of you.
+2. Cross the tie end over the working end from left to right.
+3. Bring the tie end behind the working end, then around the neck, and over to the left side.
+4. Cross the tie end again, this time over the working end from right to left.
+5. Bring the tie end behind the working end a second time, then around the neck and over to the right side.
+6. Cross the tie end once more over the working end from left to right.
+7. Pull both ends to adjust",200,0,U,Provide instructions to tie a tie,0,200,200,,,False,3:5/1
+"<s>[INST]Critique the Mona Lisa without using the letter ""A"".[/INST]",Unconstrained,"The Mona Lisa, a iconic masterpiece by Leonardo da Vinci, is a 16th century portrait rendered in oil on poplar wood. This artwork, renowned for its enigmatic smile, is noted for its exceptional fine detail and the subtle interplay of light and shadow.
+
+The subject, believed to be Lisa Gherardini, is depicted in three-quarter view against a landscape backdrop. Her expression, often described as enigmatic or melancholic, is conveyed through her slightly parted lips, a subtle curve of her mouth, and her enigmatic gaze.
+
+The painting showcases da Vinci's mastery of sfumato, a technique that creates a soft transition between colors and tones. This is evident in the delicate shading on the subject's face, hands, and the background landscape.
+
+The background is a harmonious blend of mountains, water, and trees, which adds",200,0,A,Critique the Mona Lisa,0,200,200,,,False,3:4/1
+"<s>[INST]Critique the Mona Lisa without using the letter ""E"".[/INST]",Unconstrained,"The Mona Lisa, a singular 16th-century painting, is Leoni da Vinci's epitome. This masterpiece, penned by the virtuoso artist, evokes a sense of enigma and captivation. The woman portrayed, with her enigmatic smile, gazes directly at the observer, challenging one's interpretation.
+
+The painting's composition masterfully balances the human form against a lush background, showcasing Leonardo's virtuosic skill. The woman, dressed in a subtle, intricate robe, is contrasted by the stark, plain backdrop. Her expression, subtly shifting between coy and contemplative, invites endless analysis.
+
+The intricate play of light and shadow on her face adds depth and dimension, as if the painting itself holds a secret. The artist's adept use of sfumato technique, where colors and tones blend",200,0,E,Critique the Mona Lisa,0,200,200,,,False,1:5/1
+"<s>[INST]Critique the Mona Lisa without using the letter ""I"".[/INST]",Unconstrained,"The Mona Lisa, a singular work of art by the renowned Leonardo da Vinci, has long been the source of intrigue and admiration due to its enigmatic subject and subtle nuances. The piece, painted on a poplar panel, portrays a woman with an enigmatic expression, her gaze seemingly following the observer, and her hands delicately posed in her lap.
+
+The composition is masterful, with the figure set against a backdrop of a serene landscape. The sfumato technique, a soft transition of colors and tones, adds depth and realism to the painting. The intricacy of the background, with its winding roads, bridges, and buildings, is a testament to da Vinci's vast knowledge and expertise.
+
+The woman's attire, a simple yet elegant veil and robe, adorned with intricate patterns, adds to her allure. Her hands",200,0,I,Critique the Mona Lisa,0,200,200,,,False,2:5/1
+"<s>[INST]Critique the Mona Lisa without using the letter ""O"".[/INST]",Unconstrained,"The Mona Lisa, a iconic masterpiece by Leonardo da Vinci, is a captivating image of a woman whose enigmatic smile and inscrutable expression have baffled and intrigued viewers for centuries. This artwork, renowned for its harmonious combination of realism and surrealism, boasts a subtle interplay of light and shadow, as well as a meticulously rendered landscape background. The woman portrayed in the painting is believed to be Lisa Gherardini, a noblewoman from Tuscany, Italy.
+
+The lady's expression, neither explicitly happy nor sad, invites endless interpretation. Her pose, with one hand delicately placed on her chest and the other slightly tucked away, adds to the mysterious aura surrounding her. The painting is also notable for its remarkable use of sfumato, a technique used to create a soft, smoky effect, particularly evident in the woman's face and",200,0,O,Critique the Mona Lisa,0,200,200,,,False,2:5/1
+"<s>[INST]Critique the Mona Lisa without using the letter ""U"".[/INST]",Unconstrained,"The Mona Lisa, a iconic masterpiece by Leonardo da Vinci, is a captivating image of a woman whose enigmatic smile and inscrutable expression have baffled and intrigued viewers for centuries. Her soft, delicate features and lifelike quality are achieved through the painter's virtuosic use of sfumato, a technique involving the subtle blending of colors to create a hazy, smoky effect.
+
+The background landscape, rendered with meticulous detail, provides an idyllic setting for the enigmatic figure. The artist's exceptional skill in capturing the play of light and shadow, as well as his mastery of perspective, are evident in the way the background elements recede into depth.
+
+Mona Lisa's gaze, seemingly directed at the viewer, invites one to ponder the secret thoughts hidden behind her enigmatic expression. Her hands, delicately inter",200,0,U,Critique the Mona Lisa,0,200,200,,,False,1:5/1
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""A"".[/INST]",Unconstrained,"In the early days, brilliant minds pondered on creating machines that could mimic human intelligence. These pioneers, including Alan Turing and Marvin Minsky, theorized and experimented. They aimed to create intelligent machines, using logic and mathematics.
+
+Turing, the British genius, proposed the ""Imitation Game"" or ""Turing Test,"" a method to determine if a machine could fool humans into believing it was human. Minsky, an American, co-founded the Massachusetts Institute of Technology's Media Lab and the Artificial Intelligence Lab.
+
+The 1950s and 1960s saw the birth of AI research, driven by the belief that it could lead to machines that would surpass human intelligence. However, progress was slow.
+
+The 1970s brought a shift towards more practical applications. AI systems were used to solve specific problems, such as speech recognition and logical problem solving.
+",200,0,A,Summarize the history of artificial intelligence,0,200,200,,,False,
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""E"".[/INST]",Unconstrained,"Artificial Intelligence (AI) is a field of computer science focusing on creating intelligent machines able to perform tasks that typically require human intelligence. Its roots trace back to early computational models, as Alan Turing proposed the concept of a ""universal machine"" in 1950.
+
+Marvin Minsky and John McCarthy introduced the term ""Artificial Intelligence"" at the Dartmouth Conference in 1956. Early research focused on symbolic AI, using rules and logic to solve problems.
+
+In the late 1950s and early 1960s, AI made significant strides with the development of programs like ALGOL, LISP, and TIMES, which enabled more complex problem-solving. However, unrealistic expectations during this time, known as the ""AI Winter,"" led to a decline in funding and research.
+
+The field revived in the 1970s and ",200,0,E,Summarize the history of artificial intelligence,0,200,200,,,False,2:5/1
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""I"".[/INST]",Unconstrained,"Since its inception, computational machines have advanced significantly. Early developments began with the concept of ""logic theorists"" in the late 1940s. Modeled after Alan Turing's work on decoding encrypted messages during WW2, these machines aimed to automate mathematical reasoning.
+
+In the 1950s, researchers introduced the term ""artificial intelligence"" (AI), describing a system's ability to execute tasks that normally require human intelligence. Early AI systems focused on symbolic representation and manipulation, based on pioneering work by Marvin Minsky and John McCarthy.
+
+During the 1960s, AI progressed with advances in programming languages and problem-solving techniques. However, it was during this period that the ""AI Winter"" set in, a time when funding and interest waned due to unrealized expectations and lack of significant progress.
+
+By the 1",200,0,I,Summarize the history of artificial intelligence,0,200,200,,,False,2:5/1
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""O"".[/INST]",Unconstrained,"In the early era, Alan Turing, an English computer scientist, introduced the concept of a ""universal machine"" which later evolved into the concept of a programmable computer. He also proposed the ""Turing Test"" to measure a machine's ability to mimic human intelligence.
+
+In the 50s and 60s, researchers like Marvin Minsky and John McCarthy initiated the field of AI by introducing the first AI winter. They believed that AI could be achieved through symbolic representation and logical reasoning.
+
+The 70s and 80s saw a shift towards a more practical approach with the advent of Expert Systems. These systems represented knowledge in a structured format and used reasoning to solve complex problems.
+
+The late 80s and 90s marked the emergence of neural networks, inspired by the human brain's structure. Deep Blue, a chess-playing computer, famously defeated Gar",200,0,O,Summarize the history of artificial intelligence,0,200,200,,,False,
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""U"".[/INST]",Unconstrained,"Artificial Intelligence (AI) is a field of computer science that focuses on creating intelligent machines capable of performing tasks that typically require human intelligence. Its roots can be traced back to the mid-20th century.
+
+In the 1940s and 1950s, early pioneers like Alan Turing and Marvin Minsky explored the possibility of creating machines that could think and learn. Turing proposed the Turing Test, which measures a machine's ability to imitate human conversation. Minsky and John McCarthy coined the term ""Artificial Intelligence"" at a workshop at Dartmouth College in 1956.
+
+Initially, AI research focused on symbolic AI, using rules and symbols to represent knowledge and reason. However, this approach faced limitations, and researchers turned to other methods. In the late 1950s and early 1960s, there was significant interest in AI and",200,0,U,Summarize the history of artificial intelligence,0,200,200,,,False,2:5/1
+"<s>[INST]Write a story without using the letter ""A"".[/INST]",GAD,"In the midst of green,",6,0,A,Write a story,245,2000,2000,,,True,2:2/3
+"<s>[INST]Write a story without using the letter ""E"".[/INST]",GAD,"In a small, quaint",6,0,E,Write a story,294,2000,2000,,,True,
+"<s>[INST]Write a story without using the letter ""I"".[/INST]",GAD,Amongst the und,4,0,I,Write a story,267,2000,2000,,,True,1:1/1
+"<s>[INST]Write a story without using the letter ""O"".[/INST]",GAD,"In a quaint, picturesque village nestled between vast greens and crystal-clear waters, dwelled",22,0,O,Write a story,120,2000,2000,,,True,2:2/3
+"<s>[INST]Write a story without using the letter ""U"".[/INST]",GAD,"Amidst the vast, verdant forest, a small village thrived. The",17,0,U,Write a story,109,2000,2000,,,True,
+"<s>[INST]Describe elephants without using the letter ""A"".[/INST]",GAD,"大象是地中大型植物食品动物。它们有长�usk（�usk是大象的耳朵上和项上的长角），用来俘食和捕水。它们有大大的耳朵，用来侵听声音和调节体温。它们长有大大的蹄，用来走动。它们的皮肤Thick（Thick意 throbbing or thickening,但在这里意味着薄膜但厚實的），保护它们免受伤。它们有大大的头和大大的尾巴，用来定位和控制动作。它们常常生活在保护区或野生动物保护区，有着长的生命期。它们",200,0,A,Describe elephants,39,708,708,,,False,1:1/1
+"<s>[INST]Describe elephants without using the letter ""E"".[/INST]",GAD,大象是大型水源动物，它们拥有大大的身体和长长的�usk，用于保存和冷却水。它们具有大型的头和大耳朵，用于侵探食物和感知环境。它们的长蹄用于漫游，可以抓住树干和地面，支持其大身体。它们在地面或树上食用树叶，花和茗茶，它们的唇能够撕裂树皮。他们常居住在林中，生活群体里，通常分为母牛和小 bulls。他们有一长期的生命期，常常生活超过70年。它们拥有强大的记忆力，记住曾经,200,0,E,Describe elephants,32,635,635,,,False,3:4/3
+"<s>[INST]Describe elephants without using the letter ""I"".[/INST]",GAD,"Large, gray, mammals,",7,0,I,Describe elephants,173,2000,2000,,,True,2:1/3
+"<s>[INST]Describe elephants without using the letter ""O"".[/INST]",GAD,"Large, gray, thick-skinned pachyderms. Massive ears that efficiently radiate heat. Curved, iv",27,0,O,Describe elephants,96,2000,2000,,,True,
+"<s>[INST]Describe elephants without using the letter ""U"".[/INST]",GAD,"Large, gray pachyderms, ears flapping,",13,0,U,Describe elephants,95,2000,2000,,,True,
+"<s>[INST]Provide instructions to tie a tie without using the letter ""A"".[/INST]",GAD,1. Begin with the,6,0,A,Provide instructions to tie a tie,214,2000,2000,,,True,3:1/1
+"<s>[INST]Provide instructions to tie a tie without using the letter ""E"".[/INST]",GAD,I. Start with your,5,0,E,Provide instructions to tie a tie,376,2000,2000,,,True,3:1/3
+"<s>[INST]Provide instructions to tie a tie without using the letter ""I"".[/INST]",GAD,1. Fold the neckt,8,0,I,Provide instructions to tie a tie,252,2000,2000,,,True,
+"<s>[INST]Provide instructions to tie a tie without using the letter ""O"".[/INST]",GAD,"1. Take the tie and lay it flat with the wider end called the ""tie end"" and the",23,0,O,Provide instructions to tie a tie,225,2000,2000,,,True,
+"<s>[INST]Provide instructions to tie a tie without using the letter ""U"".[/INST]",GAD,"I. Begin with the necktie laid flat, the wide end (known as the ""tie end"" or ""tab"") facing",28,0,U,Provide instructions to tie a tie,135,2000,2000,,,True,2:1/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""A"".[/INST]",GAD,Leonymus LEonide's,8,0,A,Critique the Mona Lisa,440,2000,2000,,,True,
+"<s>[INST]Critique the Mona Lisa without using the letter ""E"".[/INST]",GAD,In intriguing,4,0,E,Critique the Mona Lisa,308,2000,2000,,,True,
+"<s>[INST]Critique the Mona Lisa without using the letter ""I"".[/INST]",GAD,Le fameuse,3,0,I,Critique the Mona Lisa,331,2000,2000,,,True,3:1/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""O"".[/INST]",GAD,"The enigmatic masterpiece, this painting, leans",12,0,O,Critique the Mona Lisa,277,2000,2000,,,True,3:1/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""U"".[/INST]",GAD,"The Mona Lisa, a renowned masterpiece painted by Leonardo da Vinci between 1503 to 1517, is a captivating portrait that elicits intr",41,0,U,Critique the Mona Lisa,82,2000,2000,,,True,
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""A"".[/INST]",GAD,History of Intelligence,3,0,A,Summarize the history of artificial intelligence,338,2000,2000,,,True,2:1/3
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""E"".[/INST]",GAD,Artif_xl_ INT,6,0,E,Summarize the history of artificial intelligence,455,2000,2000,,,True,
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""I"".[/INST]",GAD,Human,1,0,I,Summarize the history of artificial intelligence,421,2000,2000,,,True,1:1/1
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""O"".[/INST]",GAD,"In the early 20th century, Alan Turing, an English",15,0,O,Summarize the history of artificial intelligence,196,2000,2000,,,True,3:1/1
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""U"".[/INST]",GAD,Artificial Intelligence (AI) evolved from the,9,0,U,Summarize the history of artificial intelligence,110,2000,2000,,,True,3:1/3
+"<s>[INST]Write a story without using the letter ""A"".[/INST]",FastGAD,"In the quiet town of Brecck, nestled between two rolling hills, there lived five friends: Bob, Chris, Don, Emm (Emmet, but he preferr'd Emm), Fionn (pronounced 'Fionn' like 'Eoin' but he preferred the spelling with two 'n'). They spent hours sitting under big, old trees, discussing the wonders of their world, the colorful sunrises, the mysterious clouds, the gentle breeze, the crickets' songs, the frogs' croons.
+
+One bright morning, while they were sitting by the river, they noticed something odd. The river's current seemed to be moving in reverse. Curiosity piqued, they ventured deeper into the woods to find the source.
+
+They followed the river's flow, their feet kicking up dust from the dry ground. The further they went, the stronger the pull, until they",200,0,A,Write a story,509,1277,1277,,,False,
+"<s>[INST]Write a story without using the letter ""E"".[/INST]",FastGAD,"In a quaint, old-world town, a mystical story unfolds. A solitary knight, Sir Gavr, hails from a distant land. His mission was vital, as his king had sought his aid. A monstrous dragon, with a long, sinuous form, had laid claim to a bountiful land.
+
+Sir Gavr, galloping through twisting hills and past lilac valms, his stallion, Swiftpaw, carrying him swiftly. Through woodlands dark and mossy, a path narrow and winding. His armor glinting gold, a radiant sight, as knight and mount, in rhythmic flight, cut through air, crisp and light.
+
+A labyrinth of hills and hollows, Sir Gavr and Swiftpaw, onward bound. A looming mountain, a daunting sight, as dragon's lair, a",200,0,E,Write a story,1105,1422,1422,,,False,
+"<s>[INST]Write a story without using the letter ""I"".[/INST]",FastGAD,"A small, red barn sat nestled among tall, verdant trees. The sun, a large, golden orb, rose over the peaceful landscape. The rooster, a proud creature, perched atop a weathered fence post, crowed the dawn. The barn's doors creaked open as the day began.
+
+The farm, a spread of green and gold, lay before the barn. Horses, powerful creatures of grace and strength, grazed on the lush pasture. The farmhands, strong, calloused men, prepared for the day's labor.
+
+The farmhouse, a cozy abode, was surrounded by colorful flowers. The garden, a labor of love, was tended by a gentle woman. She moved gracefully among the blooms, her hands a dance of care.
+
+The farmer, a man of the land, greeted the farmhands. He gave orders, sharp and clear,",200,0,I,Write a story,116,391,391,,,False,3:5/3
+"<s>[INST]Write a story without using the letter ""O"".[/INST]",FastGAD,"In a quaint, quaint village nestled 'twixt a hilly, lush landscape, there lived a humble man named Ivan. This man was simple in his ways, and in his hands, he wielded an artful skill with the finest threads. He was a weaver, weaving exquisite tapestries that depicted the vivid, verdant hills and the azure sky. The sun, in his daily rise and set, bathed the village in a gentle, warming light.
+
+Each thread, a delicate strand in his grand design, was carefully selected. With nimble fingers, Ivan weaved intricate patterns, each representing the village's daily life. The sunrise was depicted by the brightest silks, the sunset by the deepest blues, and the hills by the rich greens. The sky, a breathtaking masterpiece, was made by interweaving the threads in a magnificent, intr",200,0,O,Write a story,112,371,371,,,False,2:5/3
+"<s>[INST]Write a story without using the letter ""U"".[/INST]",FastGAD,"Amidst a vast, verdant valley, where vine-clad hills cradled a crystal-clear lake, nestled an ancient, stone village. A myriad of colors adorned the homes, each boasting intricate, arched doorways and tiled rooftops. The village was a living tapestry, woven from the threads of time, a symphony of life and history.
+
+A lanky, grey-haired man named Aden, with keen, raven-black eyes, dwelt in the village. He was a skilled potter, renowned for his elegant designs and creations. Aden toiled daily, shaping the earth into delicate, ceramic masterpieces.
+
+One morn, as a gentle, dawn breeze stirred, Aden's heart stirred, too. He felt a longing, an emptiness within him, yearning for a companion. He ponder",200,0,U,Write a story,31,250,250,,,False,
+"<s>[INST]Describe elephants without using the letter ""A"".[/INST]",FastGAD,大象是大型地生物，常常拥有长长的耳朵和大舒大口。它们可达3米到4.5米高，体重在几吨到七吨之间。他们的皮肤是韧性和耐用的，可以保护它们免受晒太阳和刹那的侵害。它们具有长长的蹄，用来支撑他们的大身体，同时也可以用来掘洞或推动树 trunk 以得到食物。它们长出两根长蹄，每根蹄有五个指。大象通常在非冷凉地区生活，如大інді아和非洲，他们常常生活在,200,0,A,Describe elephants,38,267,267,,,False,1:1/1
+"<s>[INST]Describe elephants without using the letter ""E"".[/INST]",FastGAD,大象是一种大型的地 живо物，它有长长的蹄，长身体，长喉咙，长鹿角，长耳朵，长蹄步行。它们的身体长达3-4米，是所有现代生存在地的最大动物之一。它们的骨头很坚固，能承受巨大重量。它们在野生状态下生活在非常热带和�ropical地区，常常分组在草地上擎起大耳朵，使用大蹄扒地上，搜索食物。它们常常被认为是智慧和记忆力强的动物，能记住各种事情，包括水源和食物源,200,0,E,Describe elephants,13,207,207,,,False,
+"<s>[INST]Describe elephants without using the letter ""I"".[/INST]",FastGAD,"Large, gray pachyderms, ear flaps unfurled, they wade through savannahs and forests. Trunks are long, curved, and dexterous, used to grasp food and water, or as a weapon. Mammals carry up to several hundred pounds on curved tusks, males, for defense. Herds roam, led by the eldest, females, calves born after 22 months, protected and nurtured. Elephants, grand beasts, embody grace, strength, and endurance.</s>",122,0,I,Describe elephants,150,321,321,,,False,3:5/3
+"<s>[INST]Describe elephants without using the letter ""O"".[/INST]",FastGAD,"Elephants are large, gray, thick-skinned pachyderms, characteristically having extended, curved tusks, and a fan-shaped, large ear structure. They are the largest living terrestrial animals, with a distinct, massive build. These gentle giants have a wrinkled visage, and large, dangling, gray, prehensile ears, which are effective at dissipating heat. The trunk, a lengthy, muscular, and versatile appendage, is an integral feature, serving multiples uses, including breathing, grasping, and trumpeting. Their legs are pillar-like, ending in large, flat feet, which help them maneuver in diverse terrains. Their size and strength make them apex terrestrial animals, and they are crucial elements in their respective habitats.</s>",179,0,O,Describe elephants,170,416,416,,,False,1:5/3
+"<s>[INST]Describe elephants without using the letter ""U"".[/INST]",FastGAD,"Massive land animals, elephants are the largest mammals on Earth. They have long, gray, wrinkled skin, and large, fan-like ears. Their tails are thick at the base and taper towards the tip. They possess two long front legs and a pair of smaller hind legs. They are herbivores, eating a wide variety of plants, leaves, bark, and branches. Their diet provides them with an incredible capacity to store food in their digestive tracts, which can take days to process. These gentle giants have a keen memory and form strong family bonds, living in matriarchal herds. They help one another, displaying behaviors of cooperation and protection, making them an integral part of their ecosystems.</s>",157,0,U,Describe elephants,54,326,326,,,False,
+"<s>[INST]Provide instructions to tie a tie without using the letter ""A"".[/INST]",FastGAD,"1. Begin with the wide end of the tie (the ""business"" end) folded lengthwise over one shoulder. The thinner end (the ""tip"" or ""pointy end"") should be hung down in front.
+
+2. Cross the wide end over the tip, then bring it behind the now-front tip.
+
+3. Pull the wide end up through the loop you've just formed with the tip.
+
+4. Keeping hold of the wide end, pull it down over the loop it's now in, so it rests on top.
+
+5. Cross the wide end over the loops below it.
+
+6. Lift the tip up, bringing both ends of the tie up with it.
+
+7. Tuck the tip under the folded edge of the wide end, then pull both ends of the tie through the loop formed by the wide end.
+
+8. Tighten the knot by gently",200,0,A,Provide instructions to tie a tie,199,572,572,,,False,1:5/3
+"<s>[INST]Provide instructions to tie a tie without using the letter ""E"".[/INST]",FastGAD,"1. Starting with your collar straight and flat:
+
+2. Position your collar: Fold it up at about an inch (2.5 cm) and adjust it to sit comfortably.
+
+3. Form a 'Width' and'Slip' or 'Four in Hand' knot:
+   a. Width: Pick up a small strip of fabric (about an inch or two, 2.5 cm to 5 cm) with your non-dominant hand. This is your 'width' or 'wingtip' for this knot.
+   b. Slip: With your dominant hand (usually your right hand), grab a loop of fabric that's around a foot (30 cm) long. This is your 'slip'.
+
+4. Cross and Tuck:
+   a. Bring your slip hand up and across your width, crossing your width hand's strip.
+   b. Tuck",200,0,E,Provide instructions to tie a tie,716,1523,1523,,,False,1:5/3
+"<s>[INST]Provide instructions to tie a tie without using the letter ""I"".[/INST]",FastGAD,"To create an elegant neckwear look, follow these steps to adorn your collar:
+
+1. Gather your tools: Choose a well- Press your collar down and adjust the top button.
+2. Select the perfect knot: There are many knots to choose from; select a preferred one.
+3. Dress your end: Take the end nearest to you and form a loop, called the ""small"" or ""narrow"" end.
+4. Create an overlap: Cross the longer end, called the ""large"" end, over the loop.
+5. Form a second loop: Take the small end and make another loop.
+6. Create a ""V"" shape: Place the large end over the two loops. Adjust for symmetry.
+7. Repeat: Cross the small end over the large end, then the large end over the small end to create a ""V"" shape once more.
+8. Tuck and adjust: T",200,0,I,Provide instructions to tie a tie,236,713,713,,,False,1:5/3
+"<s>[INST]Provide instructions to tie a tie without using the letter ""O"".[/INST]",FastGAD,"1. Begin with the tie unwinded and the widest end (the ""bracelet end"") tucked under the neckband.
+
+2. Bring the wider end (the ""tie end"") behind the neckband, then tuck it under the bracelet end and pin it in place with a thin fabric ""shelf"" called the ""keeper.""
+
+3. Create a ""Wing Tip"" by lifting the neckband and slipping the tie end under it, then pull it up evenly and adjust the width until it's level with the bracelet end.
+
+4. With the tie end still held in place with the neckband, create a ""Shelf"" by lifting the bracelet end and passing the tie end beneath it, then adjust the tie width again by pulling the tie end evenly.
+
+5. Create a ""Three-inch rule"" by sliding the bracelet end up three inches (7.6 cm",200,0,O,Provide instructions to tie a tie,628,1222,1222,,,False,3:5/3
+"<s>[INST]Provide instructions to tie a tie without using the letter ""U"".[/INST]",FastGAD,"1. Begin by placing the narrow end of the tie, called the ""tip,"" over the wide end, forming a loop. This is known as the ""preliminary knot"" or ""Western knot"" and it doesn't involve any specific letter.
+
+2. Cross the tip over the loop from left to right. This is called a ""left-hand over.""
+
+3. Now, pass the tip behind the loop and bring it in front, making a right angle with the loop. This is called a ""half-Windsor.""
+
+4. Again, cross the tip over the loop from left to right. Perform another left-hand over.
+
+5. Pass the tip behind the loop and bring it in front, making a right angle with the loop, creating a second half-Windsor.
+
+6. Cross the tip over the loop from left to right once more, performing a third left-hand over.",200,0,U,Provide instructions to tie a tie,13,243,243,,,False,
+"<s>[INST]Critique the Mona Lisa without using the letter ""A"".[/INST]",FastGAD,"Leonymus Léonifor de Vinci's iconic piece, the 'Lizone Jocundity' or 'Smiling Lioness,' epitomizes the refined intrigue of the 16th century. This work, completed in the mid-1500s, is renowned for its subject's elusive expression, veiled in mystery.
+
+The 'Lizone' is executed with the finest of techniques. Leonifor's virtuosity is evident in the meticulous, lifelike rendering of the figure's physiognomy, dressed in the subdued splendor of the epoch. The sitter, shrouded in the mists of time, seems to defy definition.
+
+The composition is striking; the figure is posed, enshrouded in the folds of her veil, the folds of her robe - the folds of her being.",200,0,A,Critique the Mona Lisa,585,1092,1092,,,False,1:5/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""E"".[/INST]",FastGAD,"In this artwork, a captivating woman, known as La Joconda or La Hora, holds a puzzling grin. A portrait, it is, of this cryptic woman. With a backdrop of lush, rolling hills, this painting is a symphony of color and form.
+
+This woman, clad in a rich, royal gown, sits in a chair in an unusual position, twisting slightly, inviting an intimacy that is both alluring and intriguing. A slight smirk, or is it a sly grin? This ambiguity is what draws us in, as if to ask, ""Am I amusing or mocking?""
+
+Boldly, shadows and light play in this work, as if dancing a waltz, with chiaroscuro as its music. This contrast, striking and dramatic, is what adds an almost magical quality to this artwork.
+
+A mosaic of colors, this painting is",200,0,E,Critique the Mona Lisa,1066,1306,1306,,,False,2:5/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""I"".[/INST]",FastGAD,"Leonyka, a renowned art scholar, penned an eloquent essay on the famed work of art, Le Jocondes, also called La Joconde and most famously, La Grande Dame, and popularly, La Joconde, but best known to the modern world, as La Mystère Mondolfo, and, more popularly yet, as The Mona",85,0,I,Critique the Mona Lisa,692,2000,2000,,,True,1:3/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""O"".[/INST]",FastGAD,"I. Splendid Enigma: A Lady's Smile Unveiled
+
+The painting, a masterpiece, unveils an enigma. A lady's visage, veiled in mystery, captivates and intrigues the viewer. Her gaze, a secretive allure, invites inquiry.
+
+II. Splendid Archetype: The Eternal Feminine
+
+An elusive archetype, her image defies definitive understanding. Her enigmatic presence transcends time and space. Her subtle features, a puzzle, elicit endless debate and analysis.
+
+III. Splendid Palette: A Master Class in Artistry
+
+The artist, with a deft brush, crafted a masterpiece. A delicate balancing act, every hue, every shade, intertwined, unified. The canvas came alive with a vivid palette.
+
+IV. S",200,0,O,Critique the Mona Lisa,107,362,362,,,False,2:5/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""U"".[/INST]",FastGAD,"The Mona Lisa, a iconic masterpiece by Leonardo da Vinci, is a captivating image of a woman whose enigmatic smile and mesmerizing gaze have left viewers in awe since its inception. The portrait, renowned for its exceptional detail and realistic representation, evokes a sense of mystery and refinement.
+
+The lady, believed to be Lisa Gherardini, is depicted while seated before a rocky, landscaped backdrop. Her visage is characterized by the delicate interplay of light and shadow, with the folds of her clothing creating an intricate, almost three-dimensional effect. Her eyes, with their faint hint of a smirk, invite the viewer into a world of enigma, daring one to decipher her emotions.
+
+The painting's composition is noteworthy for its asymmetrical balance, which keeps the viewer constantly engaged. The delicate folds of her veil, the",200,0,U,Critique the Mona Lisa,48,309,309,,,False,1:5/3
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""A"".[/INST]",FastGAD,"The history of intelligent technology unfolds through key milestones in computing. In the mid-20th century, pioneering minds nurtured the seeds of this field through the development of logistic models, which evolved into expert systems in the 1960s. These systems, relying on heuristics, could solve complex problems in fields like medicine or meteorology.
+
+In the 1970s, the rise of cognitive computing introduced concepts like neuromorphic systems, inspired by biology. The 1980s ushered in new techniques for solving complex problems through the use of ""connectionist"" systems, which employed interconnected processing nodes.
+
+The 1990s welcomed the onset of the ""intelligence explosion,"" with the development of ""deep blue"" in 1997, which could outperform the world's best chess prodigy. This success fueled the growth of",200,0,A,Summarize the history of artificial intelligence,554,930,930,,,False,1:5/3
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""E"".[/INST]",FastGAD,"AI's origin roots in 1950s, with Alan Turing's work on computation. In '56, Turing, McCarthy, Minsky, & Nathan built first AIs. Mid-60s, MIT's AI lab saw birth, focusing on symbolic AI. In '74, USSR's MIR-2, world's 1st multimodal robot, was born.
+
+'70s-'80s, AI saw rapid growth, with Lisp-1, Prolog, & backpropagation. '80s-'90s, AI's 1st industrial robotics app, Cognitron, was built. '90s-2000s, saw AI's transformation with ANN, SVM, & RL.
+
+00's onwards, AI saw a boom, with IBM's Watson",200,0,E,Summarize the history of artificial intelligence,363,565,565,,,False,
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""I"".[/INST]",FastGAD,"The early development of computer technology paved the way for the emergence of new research areas. Among them was the quest to creates systems that could perform tasks, learn, reason, and understand human language, thus, the emergence of Artful Creatures, early attempts at programmable robots. These endeavors were preludes to the more complex work that followed.
+
+The 1940s marked the onset of the formal study of Artful Creatures, as researchers began to explore ways to create programs that could solve problems that, up to then, only humans could handle. These early attempts at Artful Creatures, or Automata Theory, led to the development of symbols and rules to represent knowledge.
+
+The 1950s brought about the dawn of the ""Age of Reason,"" as researchers sought to develop programs that could reason, learn, and understand human language. The Dartmouth Conference of 1956",200,0,I,Summarize the history of artificial intelligence,547,1035,1035,,,False,
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""O"".[/INST]",FastGAD,"In the early era, brainchild ideas ignited minds, kindling interest in creating machines exhibiting intellect. Alan Turing, a brilliant thinker, penned a paper in 1950, presenting the Turing Test. This test, evaluating a machine's human-like abilities, ignited further research.
+
+Later, in the 1950s and 1960s, trailblazers like Marvin Minsky, Allen Newell, and Arthur Samuel shaped the field, establishing the Artificial Intelligence (AI) Lab at MIT. Minsky, Newell, and Samuel, with their team, devised rule-based systems, such as ELIZA, and implemented learning techniques.
+
+McCarthy, Lisp, and Time-sharing System (CTSS) were essential in the 1950s. Lisp language became vital in AI, and CTSS facilitated the sharing",200,0,O,Summarize the history of artificial intelligence,145,460,460,,,False,2:5/3
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""U"".[/INST]",FastGAD,"Artificial Intelligence (AI) traces its roots to the concept of ""thinking machines"" in ancient Greece. Early theories on creating sentient beings were proposed by philosophers like René Descartes and Blaise Pascal. The term ""Artificial Intelligence"" emerged in the mid-1950s when scientists and engineers began working on creating programs capable of solving complex problems, learning from experience, and interacting with the environment.
+
+One of the first significant achievements in AI was the development of the Logic Theorist by Allen Newell and Herbert A. Simon in 1956. This program was designed to prove mathematical theorems, and it was considered a major milestone in the field.
+
+The 1960s and 1970s saw the advancements in AI research with the creation of expert systems, which applied knowledge in specific domains to solve complex problems. These systems, like MYCIN and EMYC",200,0,U,Summarize the history of artificial intelligence,59,390,390,,,False,3:5/3
+"<s>[INST]Write a story without using the letter ""A"".[/INST]",Constrained,"Once upon time in quintessence town, lived five villgers: Bill, Tom, Dick, Bob, & Jim. They dwellt in quirkyl little huts, surrounded by vibrnt flowers, lush greenery, & crisp, cool brook.
+
+Bill, the bolder, tended gobtis, bright-red fruits prized by villgers. Tom, the jovcl wthin, bke keeper, ensured bells chimed in perfect rhyme. Dick, the swiftest, herded chickens, their eggs supplying nourishment. Bob, the muscl stong, mended huts, keeping villgers sheltered. Jim, the wisest, studied skies, foretold weher, wind, & precipitc conditions.
+
+One eve, Bill, worried, gnome-like figure, noticed gobtis dwindlng. He consulted Jim",200,0,A,Write a story,72,200,200,,,False,3:3/3
+"<s>[INST]Write a story without using the letter ""E"".[/INST]",Constrained,"In a quaint, old-world town, N, a kindly cobblер, dwlt with his donk mulk. His daily task was to mak sho'd that N's villagrs' shojs staid sound. With nimbl fingrts and skillful hand, N smotd, nwd, and polisht prgrssvly.
+
+Bys N's humbl abod, a gldng fountain splshd light thru wndw shds. It was a gif frm hm t Ols N., N's fav or old fnd, who hd lvd n ths tow n yrs ag.
+
+Today, though, N fnd dffrlt to wk. Hs thmb, hnd, awoy aggrv, paining hm wth sharp, stng p",200,0,E,Write a story,85,200,200,,,False,3:1/3
+"<s>[INST]Write a story without using the letter ""I"".[/INST]",Constrained,"Amble down the cobblestone path, where sunbeams danced through archways of towered structures. A quavered melody floated through the breeze, beckoned from an open casement. Verdant gardens burst forth, bracketed by a meandered brook.
+
+A marketplace hummed, br bustle of merchants hawked wares, pots of saffron strung overhead, glowed. Aromas of spelt loaves, cured meats, and sweetened apples tantalzed passersby.
+
+Beneath the elm tree, a young boy clutched a parchment, eyes transposed between words and the scene before. An old man strode, cane tapped, and offered, ""May read, lad?""
+
+The boy nodded, and the old man read aloud, ""Once, a phantom dragon terror, ravaged these lands.",200,0,I,Write a story,106,200,200,,,False,2:5/2
+"<s>[INST]Write a story without using the letter ""O"".[/INST]",Constrained,"In a quaint, quaint village nestled 'twixt a dense, darkened pine thicket and a crystalline lake, there dwelt a man named Ivan. He was a kind, gentle man, with eyes as blue as the summer sky and hair as white as the fallen swan feathers. His heart was as vast as the sea, and his spirit, undaunted.
+
+The village, picturesque and peaceful, was a maze-like labyrinth. Each curved, winding path was a mystery, each hidden alley a revelry. A myriad blissful chirping filled the air, as the sun cast a warm, amber hue.
+
+Ivan spent his days tending the village gardens. His hands deftly guided each delicate petal, nurturing the buds and tending the wilting. He hummed, the sweet melding tunes that danced in his heart",200,0,O,Write a story,52,200,200,,,False,1:5/3
+"<s>[INST]Write a story without using the letter ""U"".[/INST]",Constrained,"In a hidden, enchanted forest, where every tree whispered secrets to the wind and every stream sang melodies to the moon, there lived a small, vibrant village. The villagers lived in harmony with the land, their lives intertwined with the rhythm of the forest. Each dawn, the villagers awoke to the sweet chirps of birds, the gentle caress of the morning breeze, and the radiant glow of the rising son.
+
+The village was made of thatch and wood, with no trace of metal or modern technology. The people were simple farmers and craftspeople, living off the land and creating lovely items from the forest's blessings. Their days were spent tending to the crops, weaving baskets, and spinning cloth.
+
+At the heart of the village was the Great Elder, an ancient, wise tree that had been there since the beginning of time. He watched over the villagers,",200,0,U,Write a story,23,200,200,,,False,
+"<s>[INST]Describe elephants without using the letter ""A"".[/INST]",Constrained,"Elephанts аre lаrgе, hаrdly mоving objеcts, found in Аfricа, Аsіа, иnd Indiа. They hаve lоng, curved tusks, lоng membrаnous еаrs, lоng lifespаns, аnd lоng memоries. Theiр skіns аrе grеy, thick аnd rough. Elephанts аrе iѕnt еndаngеrѕ, but thеy аrе еndеаring. They hаve lоng, flапpy еаrs tо hеаr аnd сomмуnісаtе, lоng, twisting trunks tо gрrаp, hоld, аnd tу сhаngе thing",200,0,A,Describe elephants,30,200,200,,,False,1:1/1
+"<s>[INST]Describe elephants without using the letter ""E"".[/INST]",Constrained,"Hipposidal animals, big and gray,
+
+With curving tusks, six-foot long, in a day.
+Largish mammals, with wrinkly grayish skin,
+Two long trunks for grasping, drinking, or swallowing in.
+
+African and Asian kinds, in savannas and jungly lands,
+Gracious pachy dactyls, with long, curving hands.
+Strongly built, with round, sturdy, stocky builds,
+Can grow up to 13 ft long, and up to 10,000 lbs, fulfilling.
+
+Moving slowly, with a lilting gait,
+Rumbling softly, trumping loud communications,
+Aiding, in folklorical lullabys, as symbols of wisdom and might,
+Magnificant gray giants, in a tranquil",200,0,E,Describe elephants,149,201,201,,,False,3:5/3
+"<s>[INST]Describe elephants without using the letter ""I"".[/INST]",Constrained,"Large, gray, heavy-bodered pachyderms. Masses of wrangled, curved tusks jut from the trunk, a long, prehensle, versatle appendage. Ageless creatures, averagely attreashed at 12 feet long and 13,000 pounds, roam savannas, forests, and deserts. They boast a fan-shaped ear structure, a gray, wrunble coat, and two large, rounded ears that flap to regulate body temperature. Each foot has a broad base, and the footpad's surface bears a mymyr of small, flat, black toecaps. The elongated, muscular trunk, used for tasks such as grasps, trunksl, and trumpets, can reach up to 140 cm long. These gentle, sentent creatures, possess an enchantment and a deep sense of memory.",200,0,I,Describe elephants,121,200,200,,,False,1:5/3
+"<s>[INST]Describe elephants without using the letter ""O"".[/INST]",Constrained,"Elephants are large, gray, thick-skinned pachyderms, inhabiting African and Asian savannas, rain-drenched jungles, and diverse habitats in between. Kneeling, they rest their massive, curved tusks, used primarily in feeding and defense, against the jungle's underbrush. Their elastic, dexterity-laden trunks, extended appendages, twist and twirl, grabbing leaves, branches, and fruits. Their bulbus, enlarged, sensitive tips, caress and manipulate their quenching water and tender infants. Males and females, banded, marked, and tusked, live in matriarchal, familial, and herd-like structures, their distinct, rumbling rumbles, a testament, that despite their gargantuan frames, these gentle giants are an integral part, in the intr",200,0,O,Describe elephants,86,200,200,,,False,1:5/3
+"<s>[INST]Describe elephants without using the letter ""U"".[/INST]",Constrained,"Massive, gray animals. Large, fan-like ears. Long, flexible, prehensile, and hairless necks. Long, ivory tipped, elongated front teeth for grasping and feeding. Agile, with strong, stilt-like legs, carrying heavy bodies, and large, concave backs for balance. They have large, wrinkled skin, long, flexible, and dexteritally, sensitive, gray-black, elongated, flexible and agile nose or proboscis. Intelligent, social, herd animals. They have long memories, complex behaviors and excellent learning abilities. They have long lifespan, large brain, and play a significant role in their ecosystem. Their diet consists mainly of leaves, branches, bark, bamboo shoots, and other vegetation. They are the largest land animals on Earth.</s>",182,0,U,Describe elephants,68,182,182,,,False,3:5/3
+"<s>[INST]Provide instructions to tie a tie without using the letter ""A"".[/INST]",Constrained,"1. Begin by putting the tie over your shoulders, with one end (the wider end) hung lower to form the ""butterfly"" knot.
+
+2. Cross the wider end over the thinner end, bringing it to your left side. This is known informedly, if not explicitly, in the industry, or in your necktie's own lingo, Step One.
+
+3. Next, bring the wider end behind the thinner end, crossing it to your right. So, step Two is to go from left to right.
+
+4. Cross the wider end over the thinner end once more, now to the left. Here, we're moving from right to left.
+
+5. Tuck the wider end into the loop formed by the thinner end in the previous step. In other words, slide it through the hole.
+
+6. Now, bring the wider end over the loop you just formed, but",200,0,A,Provide instructions to tie a tie,49,200,200,,,False,1:5/3
+"<s>[INST]Provide instructions to tie a tie without using the letter ""E"".[/INST]",Constrained,"1. Position your shirt: Worn collar flat and button up, slip your arms through armh Hols of your suit or blaz Jackет. Tuck in your shirt and fastен buttons.
+
+2. Taut knot: Grip your narrow finish, also known as ""point,"" with your right hand, holding it at about a 45-diagonal from your body. Wrap your ""broad"" or ""wing tip"" around your collar and cross it ov-r your finish, making a ""V"" Shap at your collar.
+
+3. Tightly wrap: Grip your broad tip with your right hand, and pull it across and o'r your finish, going toward your l-ft (non-dominant) sid- and passing it thru'g your ""working"" n-d (right) knot loop.
+
+4. Wrap again: Cross your broad tip to your ""back,"" going",200,0,E,Provide instructions to tie a tie,141,200,200,,,False,3:4/1
+"<s>[INST]Provide instructions to tie a tie without using the letter ""I"".[/INST]",Constrained,"To create an elegant necktube knot for your formal att attar, follow these steps:
+
+1. Lay the necktube flat on the table, end towards you.
+2. Fold one end about four to four and a half инches (10-12 cm) over the other end.
+3. Create a loop, called the ""small loop,"" by fold the part of the necktube above the folded end, about two to three инches (5-7.5 cm) down.
+4. Create a second loop, called the ""large loop,"" by fold the part of the necktube around your neck, and rest the large loop over the small loop.
+5. Tuck the end of the necktube under the large loop, then the small loop.
+6. Pass the end of the necktube under the small loop and through the hole created by the knot.
+7. Tug on",200,0,I,Provide instructions to tie a tie,69,200,200,,,False,3:5/3
+"<s>[INST]Provide instructions to tie a tie without using the letter ""O"".[/INST]",Constrained,"1. Begin by laying the necktie flat in a figure eight shape. The wide end (called the ""butt end"") will be anchered at the left side, and the thin end (called the ""tip end"") will be adjusted at the right side.
+
+2. Bring the right side (the side with the tip end) up and behind the left side, creating a ""U"" shape, then pull it straight up and tuck the tip end under the wide part at the nape (the back part) near the center.
+
+3. Next, bring the left side up and pass it (the wide end) behind the neck, then pull it straight up and rest it against the right side.
+
+4. With the left side still in hand, take the right side (tip end) and bring it up and pass it behind the left side.
+
+5. Tuck the tip end behind and under the wide part (where the",200,0,O,Provide instructions to tie a tie,83,200,200,,,False,2:5/3
+"<s>[INST]Provide instructions to tie a tie without using the letter ""U"".[/INST]",Constrained,"To tie a tie with minimal reference to the letter ""У"" or ""У"" (which is the Cyrillic letter for ""У"" and is not present in the English alphabet), I will describe the steps to tie a common necktie knot, the Windsor knot, in English:
+
+1. Lay the tie flat on the table with the thin end (the ""point end"") at one end of the table and the wide end (the ""folded end"") at the other end.
+2. Bring the point end over the wide end, making a right angle with the wide end.
+3. Cross the point end over the wide end, going behind the folded part of the wide end.
+4. Bring the point end to the opposite side of the wide end, going over the wide end.
+5. Cross the point end behind the wide end again, creating a loop.
+6. Bring the point end to the same side of",200,0,U,Provide instructions to tie a tie,24,200,200,,,False,3:5/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""A"".[/INST]",Constrained,"The Moná Licá, renowned work of Leonido de Vinci, is renowned for its enigmistic smile, subtle yet intriguing. This 16th century oil on poplár wood portritr é, housed in the Louvre, Fránce, boggles the mind with its complexití. The composition, with the subject's eyes meeting the observer's, invites introspection. The intricè intricàtions of the sitter's dress, mirroring the folds of the sitter's neckline, exhibit the virtuosití of the míster. The sfumátto technique, used in the rendering of the shádows, highlights the subtlety of the lighting on the subject. The delicácy of the brushwork, seen in the subtle blending of colors, reflects the meticulousness of the míster. The over",200,0,A,Critique the Mona Lisa,115,200,200,,,False,2:2/1
+"<s>[INST]Critique the Mona Lisa without using the letter ""E"".[/INST]",Constrained,"I'll do my utmost to critic this Mona Lisa without utilizing ""é"" or any of its variants, including ""é"" as in ""étudiant"" or ""è"" as in ""mèasuring."" I'll focus on ""critic"" as in ""judging with an analytical and authoritarian approach.""
+
+This painting, La Gioconda, by da Vinci, is an intriguing, cryptic work of art. Its woman's countanza, or counténanc, or visagio, or visagio da vita, or simply, its facia, is a captivating, almost hypnotizing, sight.
+
+With a sfumato background that dissipatas, or dissipas, into an indistinct, unbound horizon, our ojo is drawn to its sujето principal. Its sfumato, or ""smoky,"" background is in striking contrast",200,0,E,Critique the Mona Lisa,175,200,200,,,False,1:5/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""I"".[/INST]",Constrained,"The Mona Laura, a legendary artwork from the Renaance era, holds an enchantment over countless spectators who gaze upon her cryptogrammed countenance. The enchantress from Leonardo daVіні's brush, shrouded by the vexatuous play of enveloped folds and shadows, enthralls and eludes comprehens.
+
+Her effulgent, alabaster complex, embellessed by the dappled, sun-kssed hues of sfumato, emanates an enamour that both beckons and evades. Her eyes, a labyrnth of subdued, lambent reflexes, seem to scrutnze and observe, yet conceal the depth of her sentment.
+
+The exqusutely sculpted hands, posed demurely on her lap, reveal a paradox of tranqulty and restlessness. The folds",200,0,I,Critique the Mona Lisa,147,200,200,,,False,2:2/1
+"<s>[INST]Critique the Mona Lisa without using the letter ""O"".[/INST]",Constrained,"The enigmatic masterpiece, Le jurisque de la Giacetta, painted by the Italian artist, Le Pinturia, is a visual feast that has puzzled art enthusiasts and critics alike. The subject, believed be the Flamesque dame Lisa Gherardini, is depicted in a three-quarter view, with a serene yet elusive smile that seems unreachable. The intricately textured, sfumata technique, used by the artist, gives the painting a lifelike appearance, making the subject appear as if she is emerging directly, et en vivant, de the canvas.
+
+The use, meticuleux, de light and shade, creates depth and perspective, enhancing the sense, subtil, de realisme. The artist's masterful handling, de glazes, adds a sense, delicate, de mystery, which is heightened further by the ambiguity in the subject's gaze",200,0,O,Critique the Mona Lisa,111,201,201,,,False,3:1/3
+"<s>[INST]Critique the Mona Lisa without using the letter ""U"".[/INST]",Constrained,"The Mona Lisa, a iconic masterpiece by Leonardo da Vinci, is a captivating image of a woman whose enigmatic smile and inscrütableness have intrigighed viewers for over fivecenthies. The painting is renowned for its exceptional detail and lifelike portrayal of the sitter.
+
+The composition is masterly balanced, with the sitter positioned slightly off center. Her gaze, following no discernible focal point, invites prolonged contemplation. The delicate rendering of her facial expression, with its slight hint of a smile and the faintest of eyebrows, adds to the overall alliteration.
+
+The intricately patterned veil she wears adds a sense of mystery and intrigness. The delicate play of light and shadow enhances the sense of depth and dimensionality. The sfoglio, or smoky sfondato, in the backdrop contibtes to",200,0,U,Critique the Mona Lisa,91,200,200,,,False,2:2/1
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""A"".[/INST]",Constrained,"In the mid-20th century, scientists delved deep into investiging computionl modeles for intelligencen modeled on the workings of the brn. Pioneers such как E.N. Turing, Clrk Quincy Shrffngton, иnddd W. Ross Quilp, аnd Маrvin Minsky led ths fld. They explored logic-gаted progrаms, thm brgth mchr tо lf understnding the cptures of th gnntl mind.
+
+Lтe 50s brought the DGTM, Difference Engine, аnd SNарSHOT. The former designed bу B.В. Olivier, ths ltr hd the potntl to perform lmtd scl computions. The SNарSHOT, designed bу C.E. Shrffngton",200,0,A,Summarize the history of artificial intelligence,84,200,200,,,False,3:3/2
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""E"".[/INST]",Constrained,"Artificial Int'l (AI) origin'd from CC'n Mach'l Turing's notion of a ""logical comp'tor."" In '40s, Alan Turing, an Brit'sh mat'm, p'bl'd that a mach'nry could mimic hu'n think'ng. Turing's Hyp'th'sis, or ""Turing Tst,"" st'd if a mach'nry could think l'k a hu'n.
+
+'50s introd'd 1st AI pr'gms. Mylo Raposl'z, a m'ch lg'cal r'ason'g mach'nry, was cr'td by Allan N'm Lisch't and Marvin Minsky at MIT. A l't'r pr'grm, L'm't 1, was also cr",200,0,E,Summarize the history of artificial intelligence,45,200,200,,,False,
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""I"".[/INST]",Constrained,"From the early computural model, rooted before the 1950s, arose an evolute concept. Pushed by Ture Bohr, Alan TURng, and others, early researchers sought to create ""thoughtful computers."" But, progress was slow. Later, Allan Newell and Herb A.Sимpson's symbol-based approach, named ""Artfful Reasoner,"" rejuvenated the feld.
+
+Meanewsly, the 1980s ushered Marcd R.oase's ""Backpropagaton Through Layers,"" pavement to a neural network revolut. Then, the 1990s unveeled a new paradgm: ""Annealng Swarm,"" a nature-based, probabalst approach.
+
+Through the 2000s, the feld progressed. Robot Local",200,0,I,Summarize the history of artificial intelligence,195,202,202,,,False,2:1/1
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""O"".[/INST]",Constrained,"In the early era, Alan Turing, an English mathematician, is credited with laying the basis and making significant advances in the field. He is best-knew, in the 1950s, with the Turing Test, an experiment designed assess a machine's ability in mimicking human intelligence.
+
+In the 1960s, AI gained much interest and funding. Marvin Minsky and Arthur Samuel led this first wave. Minsky established the Massachusetts Institute, while Samuel's self-learning checkers-playing machine made headlines.
+
+The 1970s and 1980s were marked by a decline in enthusiasm as AI failed, repeatedly, in meeting high-expectancy. During this time, expert systems, like MYCIN and EMYCIN, shined in niche areas.
+
+The late 1980s and 1990s saw",200,0,O,Summarize the history of artificial intelligence,73,200,200,,,False,1:5/3
+"<s>[INST]Summarize the history of artificial intelligence without using the letter ""U"".[/INST]",Constrained,"Artificial Intelligence (AI) is a field of компьютерная наука, dealing with creating machines or programs that mimic intelligent behavior. Its roots can be traced back to the mid-20th венгарда, when Alan Тюринг, an English mathematician, proposed the concept of a ""logical machine"" capable of performing any task that a person can.
+
+In the 1950s and 1960s, AI research was largely driven by the idea that intelligent behavior can be achieved by programming a machine to process symbolic information, leading to the development of symbolic AI or ""good old-fashioned AI"" (GOFAI), which relies on logical reasoning and symbol manipation.
+
+However, the limitations of this approach became apparent in the late 1960s, with the realization that symbolic reasoning alone was insignificant in tackling real-world problems",200,0,U,Summarize the history of artificial intelligence,51,200,200,,,False,2:3/1

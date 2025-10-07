@@ -1,0 +1,14 @@
+jupyter==1.0.0
+torch==2.3.0
+transformers==4.43.3
+numpy==1.26.4
+accelerate==0.31.0
+# deepspeed # Install deepspeed at your own risk... of running out of memory
+scipy==1.13.1
+ansi==0.3.7
+datasets==2.19.1
+pandas==2.2.2
+requests==2.32.3
+tokenizers==0.19.1
+tqdm==4.66.4
+typing_extensions==4.12.2

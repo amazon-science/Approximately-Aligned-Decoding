@@ -1,0 +1,29 @@
+{
+  "name": "pyrighthallucinationdetector",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "server": "node -r ts-node/register --loader ts-node/esm src/run_server.ts",
+    "dev": "ts-node src/run_server.ts"
+  },
+  "type": "module",
+  "author": "",
+  "license": "Apache-2.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@zzzen/pyright-internal": "^1.2.0-dev.20240623",
+    "express": "^4.19.2",
+    "pyright": "^1.1.369",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5"
+  }
+}
