@@ -1,6 +1,6 @@
 jupyter==1.0.0
 torch==2.3.0
-transformers==4.43.3
+transformers==4.53.0
 numpy==1.26.4
 accelerate==0.31.0
 # deepspeed # Install deepspeed at your own risk... of running out of memory
