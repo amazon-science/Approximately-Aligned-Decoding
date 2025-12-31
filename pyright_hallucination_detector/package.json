@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@zzzen/pyright-internal": "^1.2.0-dev.20240623",
-    "express": "^4.19.2",
+    "express": "^4.22.1",
     "pyright": "^1.1.369",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
