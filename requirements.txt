@@ -1,5 +1,5 @@
 jupyter==1.0.0
-torch==2.3.0
+torch==2.8.0
 transformers==4.43.3
 numpy==1.26.4
 accelerate==0.31.0
